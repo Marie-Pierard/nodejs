@@ -1,14 +1,20 @@
 {
   "name": "node_first_app",
   "version": "1.0.0",
-  "description": "",
+  "description": "First app",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
+    "start": "node index",
+    "dev": "nodemon index"
+},
+  "author": "Marie",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "jsonfile": "^6.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
   }
 }
